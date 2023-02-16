@@ -1,0 +1,22 @@
+Note: Maths functionality is not available yet.
+Note: PyX is only available in English so far.
+Code.txt: Does nothing. Will be updated in the future to simplify the code even more.
+Handbook.txt: This file.
+Code.xml: Enter code here
+RunThis-x.x.x.py: Executes the code.
+When entering code to Code.xml, 3 less than the line number must come after the command and before >, for example <say2>Text</say2> on line 5.
+Every Code.xml file must be layed out like this:
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<script>
+***Code***
+</script>
+</root>
+                PyX    || Python                   || English
+<say>Text/Number</say> || print("Text")            || Writes 'Text/Number' to the screen
+<ask>Question</ask>    || answer=input("Question") || Asks 'Question' and sets the value of the variable 'answer' to the response
+<say>answer</say>      || print(answer)            || Writes the value of the variable 'answer' to the screen. Works with any other a-z variable as well.
+<say>/answer</say>     || print("answer")          || Writes 'answer' to the screen. Does not work with a-z variables.
+<f>Text/Number<f>      || f="Text/Number"          || Sets any a-z variable to 'Text/Number'. Does nit work with answer.
+
+Alpha 0.5.7

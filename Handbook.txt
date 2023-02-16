@@ -17,6 +17,7 @@ Every Code.xml file must be layed out like this:
 <ask>Question</ask>    || answer=input("Question") || Asks 'Question' and sets the value of the variable 'answer' to the response
 <say>answer</say>      || print(answer)            || Writes the value of the variable 'answer' to the screen. Works with any other a-z variable as well.
 <say>/answer</say>     || print("answer")          || Writes 'answer' to the screen. Does not work with a-z variables.
-<f>Text/Number<f>      || f="Text/Number"          || Sets any a-z variable to 'Text/Number'. Does nit work with answer.
+<f>Text/Number<f>      || f="Text/Number"          || Sets any a-z variable to 'Text/Number'. Does not work with answer.
+Text                   || #Text                    || Comment
 
 Alpha 0.5.7
